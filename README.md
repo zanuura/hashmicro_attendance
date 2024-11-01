@@ -7,8 +7,7 @@ This repository contains a mobile application developed using Flutter, designed 
 ### Application Path
 You can find the application APK and related files at the following paths:
 
-- Release APK: ./application/app-release.apk
-- Build Output: ./build/app/outputs/flutter-apk/
+- Release APK: [Gdrive](https://drive.google.com/file/d/1OwqA5nniPzVGKdBXy4LyXY2jvxXF58On/view?usp=sharing)
 For further details on the application’s structure and usage, please refer to the instructions below.
 
 ## Getting Started
