@@ -1,0 +1,46 @@
+name: hashmicro_attendance
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  xml: ^6.5.0
+  latlong2: ^0.9.1
+  flutter_map: ^7.0.2
+  syncfusion_flutter_maps: ^26.2.13
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  toast: ^0.3.0
+  loading_animation_widget: ^1.2.1
+  shared_preferences: ^2.3.2
+  uicons: ^1.0.1
+  flutter_background_service: ^5.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/hashmicro_logo.png
+
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/hashmicro_logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_foreground: "assets/hashmicro_logo.png"
+  adaptive_icon_background: "#bf212f"
